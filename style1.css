@@ -1,0 +1,384 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("body/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  font-family: Nunito, sans-serif;
+}
+
+
+header {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  display: block;
+}
+
+.logo{
+  margin-right: 100px;
+}
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+nav ul a:hover {
+  background-color: black;
+  color: gold;
+}
+
+
+.connexion {
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+
+
+.inscription {
+  background-color: gold;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/*********************************/
+.recherche1 {
+  width: 100%;
+  max-width: 800px;
+  padding: 12px;
+  border-radius: 20px;
+  border: solid 1px #ccc;
+  margin: 60px auto 20px auto;
+  display: block;
+  background-color: gold;
+}
+
+
+.paragraphe {
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.services {
+  width: 100%;
+  background-color: black;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.services2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.service {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.liens {
+  text-decoration: none;
+  color:white;
+}
+
+footer{
+  text-align:center; 
+  margin-top:30px; 
+  padding:10px; 
+  background:black; 
+  color:white;
+  margin-bottom: 0;
+}
+/***************************************/
+.hotel-grid{
+  display: flex;
+  gap: 30px;
+}
+
+.hotel-card {
+  background: gold;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+  transform: scale(1.05);
+}
+
+.hotel-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hotel-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.hotel-card p {
+  font-size: 14px;
+  color: #333;
+}
+
+/*************************************************/
+
+    .destinations {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid gold;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0px 4px 12px rgba(255, 215, 0, 0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .card-content h3 {
+      margin: 10px 0;
+      color: gold;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: gold;
+      color: black;
+      font-weight: bold;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: white;
+      color: black;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 15px;
+      border-top: 2px solid gold;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 0;
+      color: #ccc;
+    }
+
+/********************************/
+.guide-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.guide-card {
+  background: gold;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.guide-card:hover {
+  transform: scale(1.05);
+}
+
+.guide-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.guide-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.guide-card p {
+  font-size: 14px;
+  color: #333;
+}
+.guide-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.guide-card {
+  background: gold;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.guide-card:hover {
+  transform: scale(1.05);
+}
+
+.guide-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.guide-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.guide-card p {
+  font-size: 14px;
+  color: #333;
+}
+.guide-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.guide-card {
+  background: gold;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.guide-card:hover {
+  transform: scale(1.05);
+}
+
+.guide-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.guide-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.guide-card p {
+  font-size: 14px;
+  color: #333;
+}
+.guide-grid {
+  display: flex;
+  gap: 30px;
+}
+
+.guide-card {
+  background: rgb(239, 238, 234);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.guide-card:hover {
+  transform: scale(1.05);
+}
+
+.guide-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.guide-card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.guide-card p {
+  font-size: 14px;
+  color: #333;
+}

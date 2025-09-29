@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>TerraNova-Inscription</title>
+  <link rel="icon" href="Header/logo.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: black;
+      justify-content: center;
+      align-items: center;
+      margin-left: 550px;
+      height: 100vh;
+      color: white;
+    }
+    .container {
+      background: #111;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 12px rgba(255,215,0,0.3);
+      width: 320px;
+      border: 1px solid gold;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: gold;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid gold;
+      border-radius: 6px;
+      background: black;
+      color: white;
+    }
+    input::placeholder {
+      color: #ccc;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background: gold;
+      border: none;
+      color: black;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: white;
+      color: black;
+    }
+    p {
+      text-align: center;
+      margin-top: 10px;
+      color: white;
+    }
+    a {
+      color: gold;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Inscription</h2>
+    <form action="login.html" method="post">
+      <input type="text" name="name" placeholder="Nom complet" required>
+      <input type="email" name="email" placeholder="Adresse e-mail" required>
+      <input type="password" name="password" placeholder="Mot de passe" required>
+      <input type="password" name="confirm_password" placeholder="Confirmer le mot de passe" required>
+      <button type="submit">S’inscrire</button>
+    </form>
+    <p>Déjà un compte ? <a href="connexion.html">Connexion</a></p>
+  </div>
+  <br>
+  <footer >
+    Réalisé par Winner © 2025
+  </footer>
+</body>
+</html>
