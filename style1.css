@@ -78,6 +78,10 @@ section {
 }
 
 /*********************************/
+.recherche {
+  padding-top: 100px;
+}
+
 .recherche1 {
   width: 100%;
   max-width: 800px;
